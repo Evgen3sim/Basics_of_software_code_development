@@ -6,17 +6,18 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int number;
-        char character;
-            System.out.println("Input code of symbol and symbol");
-            number = scanner.nextInt();
-            character = scanner.next().charAt(0);
-            if (number == character) {
-                System.out.println(true);
-            } else {
-                System.out.println(false);
-            }
-        }
+    	Scanner scanner = new Scanner(System.in);
+		String terminate = "";
+		int number;
+		char character;
+			System.out.println("Input code of symbol and symbol");
+			number = scanner.nextInt();
+			character = scanner.next().charAt(0);
+			if (number == character) {
+				System.out.println(true);
+			} else {
+				System.out.println(false);
+			}
+		}
     }
 
